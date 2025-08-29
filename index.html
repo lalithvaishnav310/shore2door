@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Seafood Delivery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to Fresh Seafood Delivery</h1>
+  <div id="menu">
+    <h2>Available Seafood</h2>
+    <ul>
+      <li> Salmon - $12 <button onclick="addToCart('Salmon')">Add</button></li>
+      <li> Prawns - $10 <button onclick="addToCart('Prawns')">Add</button></li>
+      <li> Crab - $15 <button onclick="addToCart('Crab')">Add</button></li>
+    </ul>
+  </div>
+  <div id="cart">
+    <h2>Cart</h2>
+    <ul id="cart-items"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
